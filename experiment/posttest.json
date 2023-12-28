@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The cation exchange resin which was used to remove the hardness of water contains ?",
+      "question": "1. The cation exchange resin which was used to remove the hardness of water contains ?",
       "answers": {
         "a": "Na+ ions.",
         "b": "Fe3+, Ca2+ and Mg2+ ions",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "After softening of hard water, the cation exchange resin was contained by   ?",
+      "question": "2. After softening of hard water, the cation exchange resin was contained by   ?",
       "answers": {
         "a": "Na+ ions.",
         "b": "Only Sulfonated polystyrene beads  ",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "To measure the hardness of the water, which solution was used as a complexing agent?",
+      "question": "3. To measure the hardness of the water, which solution was used as a complexing agent?",
       "answers": {
         "a": "The Cu (II) Phenanthroline complex ",
         "b": "Barium salt of EDTA",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What indicator was used during the titration for measuring the hardness of the water?",
+      "question": "4. What indicator was used during the titration for measuring the hardness of the water?",
       "answers": {
         "a": "Methyl orange",
         "b": "Eriochrome Black-T",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     } , 
     {
-      "question": "At the end point of the titration, the color of the used indicator was turned brine red to blue due to ",
+      "question": "5. At the end point of the titration, the color of the used indicator was turned brine red to blue due to ",
       "answers": {
         "a": "Formation of metal-indicator complex",
         "b": "The metal-indicator complex dissociates, and the indicator becomes free",
