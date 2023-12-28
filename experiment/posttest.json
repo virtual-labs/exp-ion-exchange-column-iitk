@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The cation exchange resin which was used to remove the hardness of water contains ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Na+ ions.",
+        "b": "Fe3+, Ca2+ and Mg2+ ions",
+        "c": "Ca2+ and Mg2+ ions ",
+        "d": "Mg2+ ions only"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "After softening of hard water, the cation exchange resin was contained by   ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Na+ ions.",
+        "b": "Only Sulfonated polystyrene beads  ",
+        "c": "Fe3+ ions3",
+        "d": "Ca2+ and Mg2+ ions "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To measure the hardness of the water, which solution was used as a complexing agent?",
+      "answers": {
+        "a": "The Cu (II) Phenanthroline complex ",
+        "b": "Barium salt of EDTA",
+        "c": "Disodium salt of EDTA",
+        "d": "18-crown ether-6"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +50,40 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What indicator was used during the titration for measuring the hardness of the water?",
+      "answers": {
+        "a": "Methyl orange",
+        "b": "Eriochrome Black-T",
+        "c": "Bromocresol green ",
+        "d": "Phenolphthalein "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "At the end point of the titration, the color of the used indicator was turned brine red to blue due to ",
+      "answers": {
+        "a": "Formation of metal-indicator complex",
+        "b": "The metal-indicator complex dissociates, and the indicator becomes free",
+        "c": "For increasing the basicity of the solution ",
+        "d": "No reasons mentioned above "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
