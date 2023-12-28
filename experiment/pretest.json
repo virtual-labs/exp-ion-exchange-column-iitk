@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What do you mean by hard water??",
+      "question": "1. What do you mean by hard water??",
       "answers": {
         "a": "The water contains Ca2+ and Mg2+ ions",
         "b": "The water contains specifically Fe3+ with little Ca2+ and Mg2+ ions",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The resin used for ion exchange should contain?",
+      "question": "2. The resin used for ion exchange should contain?",
       "answers": {
         "a": "Non-exchangeable ions ",
         "b": "Larger ions ",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     }, 
     {
-      "question": "The ion exchange column contains a microporous exchange resin usually made by ?",
+      "question": "3. The ion exchange column contains a microporous exchange resin usually made by ?",
       "answers": {
         "a": "Sulfonated graphitic carbon nitride ",
         "b": "Sulfonated polystyrene beads",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     } , 
     {
-      "question": "When soap fails in effective cleaning?",
+      "question": "4. When soap fails in effective cleaning?",
       "answers": {
         "a": "When water contains alcohol",
         "b": "When water contains bacteria",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     } , 
     {
-      "question": "To remove the hardness of water, what type of resin should be used? ",
+      "question": "5. To remove the hardness of water, what type of resin should be used? ",
       "answers": {
         "a": "Both cation exchange and anion exchange resins",
         "b": "Only anion exchange resin ",
