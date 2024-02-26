@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="header">
+            <h1>Ion Exchange Column for Removal of Hardness of Water</h1>
+        </div>
+        <div class="super-container">
+            <div class="simulate">
+                <img id="lab" src="./assets/lab.png"alt="Chemistry-Lab">
+            </div>
+            <div id="button">
+                <button id="start" onclick="ok()">Next</button>
+            </div>
+            <div id="Instructions"> 
+                <h1 id="ins">Instructions</h1>
+                <h1 id="text">Lets start the experiment</h1>
+                <div id="Message"></div>
+            </div>
+                <div id="instrument">
+                    <img id="conical-flask" src="./assets/volumetric-flask.png" alt="conical flask">
+                     <!-- <img id="burette" onclick="measurmove()" src="./assets/t-b.png" alt="burette"> -->
+                     <img id ="mesurwater" src="./assets/measuring-cylinder-solution.png" alt="">
+                    <img id="measuring-cylinder" onclick="mesurmove()" src="./assets/measuring-cylinder.png" alt="measuring cylinder">
+                 
+                    <img id="edta-beaker" src="./assets/EDTA SOLUTION BEAKER.png" alt="EDTA beaker">
+                    <img id="black-tea-beaker" src="./assets/arechromatic black tea.png" alt="Black Tea Beaker">
+                    <img id="funnel" src="assets/funnel.png" alt="funnel">
+                    <img id="drop" src="assets/drop.png" alt="drop">
+                    
+                    
+    
+                    
+                    <img id="buffer-solution" src="./assets/BUFFER SOLUTION.png" alt="BUFFER SOLUTION">
+                    <img id="hard-water-sample" src="./assets/HARD WATER SAMPLE.png"onclick="move()"  alt="HARD WATER SAMPLE">
+                    
+                    <!-- <img id="buretteStand02" src="./assets/burette stand.png" alt="empty pippete"> -->
+                    <!-- <img id="ff0" src="./assets/ff0.png" alt="empty burette"> -->
+                    
+
+        </div>
+    </main>
+    <script src="./index.js"></script>
 </body>
+
 </html>
