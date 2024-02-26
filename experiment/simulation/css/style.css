@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body,.main {
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    display: block;
+}
+
+.header {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.1rem;
+    position: block;
+    background: #27344b;
+    height: 8%;
+    width: 100%;
+    color: rgb(235, 227, 227);
+}
+
+.header h1 {
+    text-align: center;
+    display:block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+    padding: 0.01rem ;
+    
+}
+/*@media only screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .header h1 {
+ 
+
+    font-size: 0.8rem;
+
+    }
+    .header{
+        padding: 0.01em;
+        height: 5%;
+    }
+}*/
+.super-container {
+    display: flex;
+    height: 92%;
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.simulate {
+    border: 1px solid black;
+    position: absolute;
+    height: 98%;
+    width: 78%;
+    top: 1%;
+    left: 1%;
+}
+
+#lab {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+}
+
+#Instructions {
+    font-weight: 1000;
+    font-style: italic;
+    top: 1%;
+    left: 80% ;
+    background-color: rgb(237, 205, 163);
+    width:19%;
+    height: 98%;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+#Message{
+    margin-top: 0%;
+    align-self: center;
+    border: 3px solid black;
+    background-color:white;
+    height: 80%;
+    width: 90%;  
+    position:relative;
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+#image {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    visibility: hidden;
+}
+
+#button{
+    position: absolute;
+    height: 98%;
+    width: 78%;
+    top: 1%;
+    left: 1%;
+    border: 1px solid black;
+}
+
+#start {
+    position: absolute;
+    padding: 1rem;
+    font-size: 18px;
+    line-height: 0em;
+    left: 88%;
+    top: 93%;
+    font-weight: 500;
+    border-radius: 80rem;
+    font-weight: 1000;
+    background: linear-gradient(to bottom right , rgba(215, 73, 63, 0.728), rgb(150, 157, 219));
+    cursor: pointer;
+    display:block;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    outline: transparent;
+    touch-action: manipulation;
+   border:solid black;
+}
+#start:hover{
+    transition: 0.4s;
+    
+    
+    color:  white;
+    background: linear-gradient(to bottom right , #05128e, #db1682);
+    
+}
+
+
+#text {
+    font-weight: 100;
+    color: rgb(14, 14, 61);
+    font-family: sans-serif;
+    font-size:smaller;
+}
+#instrument{
+    width: auto;
+}
+#keep2st{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    visibility: hidden;
+    top: 20%;
+    left: 13.6%;
+
+}
+#drop2{
+    width: 5.5%;
+    height: 18%;
+    position: absolute;
+    visibility: hidden;
+    top: 44.5%;
+    left: 24.3%;
+    
+}
+#conical-flask {
+    width: 4.5%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 58%;
+    left: 20%;
+}
+#conical-water{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    visibility: hidden;
+    top:53%;
+    left: 10.5%;
+  
+}
+#buretteStand01
+{
+    width: 7%;
+    height: 50%;
+    position: absolute;
+    visibility: visible;
+    left: 13.4%;
+    top: 23.2%;
+}
+#ef0 {
+    width: 2%;
+    height: 36%;
+    position: absolute;
+    visibility: visible;
+    left: 16%;
+    top: 23%;
+}
+#ef1 {
+    /*need to hidden*/
+    width: 2%;
+    height: 36%;
+    position: absolute;
+    visibility: visible;
+    left: 16%;
+    top: 23%;
+}
+#ff1 {
+    /*need to hidden*/
+    width: 2%;
+    height: 36%;
+    position: absolute;
+    visibility: visible;
+    left: 59.2%;
+    top: 23%;
+}
+#ff0 {
+    width: 2%;
+    height: 36%;
+    position: absolute;
+    visibility: visible;
+    left: 59.2%;
+    top: 23%;
+}
+#buretteStand02{
+    width: 6.5%;
+    height: 50%;
+    position: absolute;
+    visibility: visible;
+    left: 56.7%;
+    top: 23.2%;
+    
+}
+#keep1st{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    visibility: visible;
+    top: 13.8%;
+    left: 9%;
+    visibility: hidden;
+}
+#drop1{
+    width: 5.5%;
+    height: 18%;
+    position: absolute;
+    visibility: visible;
+    top: 38%;
+    left: 20.3%;
+    visibility: hidden;
+}
+#measurewater{
+    width: 1.1%;
+    height: 8%;
+    position: absolute;
+    visibility: hidden;
+    top: 64.8%;
+    left: 21.4%;
+
+    transition-property: all;
+    transition-duration: 2s;
+
+}
+#measuring-cylinder{
+    width: 2.3%;
+    height: 20%;
+    position: absolute;
+    visibility: visible;
+    top: 53.4%;
+    left: 15.8%;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#mesurwater{
+    width: 1%;
+    height: 8%;
+    position: absolute;
+    visibility: hidden;
+    top: 64%;
+    left: 16.5%;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#edta-beaker {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 57%;
+    left: 30%;
+}
+#black-tea-beaker {
+    width: 9%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 57%;
+    left: 36%;
+}
+#hard-water-sample {
+    width: 12%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 57%;
+    left: 48%;
+    transition-property: all;
+    transition-duration: 2s;
+    
+}
+#buffer-solution {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 57%;
+    left:42%;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#pipette {
+    width: 0.8%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 66.2%;
+    left: 47%;
+    rotate: 85deg;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#empty-pipette {
+    width: 0.8%;
+    height: 15%;
+    position: absolute;
+    visibility: visible;
+    top: 66.2%;
+    left: 47%;
+    rotate: 85deg;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#funnel{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    /* visibility: hidden; */
+    top:18%;
+    left: 9.3%;
+}
+#drop{
+    width: 5.5%;
+    height: 22%;
+    position: absolute;
+    visibility: hidden;
+    top: 37.5%;
+    left:20.3%
+
+}
