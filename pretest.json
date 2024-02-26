@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What do you mean by hard water??",
+      "answers": {
+        "a": "The water contains Ca2+ and Mg2+ ions",
+        "b": "The water contains specifically Fe3+ with little Ca2+ and Mg2+ ions",
+        "c": "The water contains Cl-, Br- and PO43- ions",
+        "d": "The water contains bacterial infections"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The resin used for ion exchange should contain?",
+      "answers": {
+        "a": "Non-exchangeable ions ",
+        "b": "Larger ions ",
+        "c": "Permeable ions3",
+        "d": "Exchangeable ions 4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }, 
+    {
+      "question": "3. The ion exchange column contains a microporous exchange resin usually made by ?",
+      "answers": {
+        "a": "Sulfonated graphitic carbon nitride ",
+        "b": "Sulfonated polystyrene beads",
+        "c": "Carbonylated polyvinyl chloride",
+        "d": "Hydroxylated borophene"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "4. When soap fails in effective cleaning?",
+      "answers": {
+        "a": "When water contains alcohol",
+        "b": "When water contains bacteria",
+        "c": "When water is hard ",
+        "d": "When the chloride content water is high"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "5. To remove the hardness of water, what type of resin should be used? ",
+      "answers": {
+        "a": "Both cation exchange and anion exchange resins",
+        "b": "Only anion exchange resin ",
+        "c": "Only cation exchange resin ",
+        "d": "Silica resin"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
