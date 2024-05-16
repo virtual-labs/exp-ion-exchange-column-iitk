@@ -1,0 +1,36 @@
+When we select Hindi or English Language
+
+
+English Instructions
+
+1- Hover the instuments with the help of mouse cursor for getting familier with the instruments used in the experiment and click on the next button to start the experiment.
+
+
+
+
+------------------step1---------------
+2- click on the Hard Water Sample.
+    a- Beaker pours 100ml of Hard Water into the Mesuring Cylinder.
+3- click on the Mesuring Cylinder.
+    a- Mesuring cylinder will pour 100 ml of Hard Water Sample into the Empty Conical Flask.
+4-click on the dropper
+    a- Dropper will get few drops of buffer solution from the buffer solution beaker and pour it into the concial flask.
+ 5- again click on the second dropper which will get few drops of Eriochrome Black T from the EBT beaker and pour it into the conical flask.
+ 6- You will obeserve the color of the liquid changes to the redvine color.
+ 7- Now click on the next button for the further steps of experiment.    
+ ---------------step2----------
+ 8- click on the hard water sample again and pour 100ml of hard water into the conical flask.
+ 9- click on the hard water pored concial flask so it will pour the tap water inside the column having sodium salt
+10- the tap water is passed through the sodium containing column and the water is collected in the second conical flask.
+11- now click on the second flask so it will be placed on the table.
+12- click on the dropper so it will collect few drops of buffer solution and pour it into the conical flask containg water passed thorugh the column.
+13- click on th second dropper so it will take few drops of Eriochrome Black T indictor and pour it into the conical falsk again
+14- you will observe the color of the liquid chnged to blue which means the hardness of water is removed.
+15- Now click on the next button for the further steps of experiment.
+---------------step3-------------------
+16- click on the Ethylenediamine tetra acetic acid (EDTA) beaker and fill the 50ml burette  
+17- click on the redvine colored conical flask which will place it below the burette
+18- click on the knob of the burette so the EDTA will be poured until the color of the liqud turns blue.
+hence you will observe the color of both the concial flask are same.
+
+Thankyou!!
