@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "After softening of hard water, the cation exchange resin was contained by   ?",
+      "question": "After softening of hard water, the cation exchange resin contains   ?",
       "answers": {
         "a": "Na+ ions.",
         "b": "Only Sulfonated polystyrene beads  ",
@@ -70,12 +70,12 @@
       "difficulty": "beginner"
     } , 
     {
-      "question": "At the end point of the titration, the color of the used indicator was turned brine red to blue due to ",
+      "question": "At the end point of the titration, the color of the solution turned to blue due to ",
       "answers": {
         "a": "Formation of metal-indicator complex",
-        "b": "The metal-indicator complex dissociates, and the indicator becomes free",
-        "c": "For increasing the basicity of the solution ",
-        "d": "No reasons mentioned above "
+        "b": "Dissociation of the metal-indicator complex",
+        "c": "increase in the basicity of the solution ",
+        "d": "None of the reasons mentioned above "
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
