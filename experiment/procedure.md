@@ -11,20 +11,26 @@
 10)	Ammonia buffer (pH 10)
 11)	EBT indicator <br> 
 ### 5.2. Laboratory Procedure
-(![Alt text](<Pic 1.jpg>))<br>
+<img src="images/Pic 1.jpg"><br>
+<img src="images/Pic 2.jpg"><br>
+<img src="images/Pic 3.jpg"><br>
+<!-- (![Alt text](<Pic 1.jpg>))<br>
 (![Alt text](<pic 2.jpg>) )<br>
-(![Alt text](<pic 3.jpg>))<br>
+(![Alt text](<pic 3.jpg>))<br> -->
 Repeat Step-5 and Step-6 three times.<br>
 ### 5.3. Procedure in laboratory <br>
-(![Alt text](<pic 4.jpg>))<br>
+<!-- (![Alt text](<pic 4.jpg>))<br> -->
+<img src="images/Pic 4.jpg"><br>
 <!-- See the Video!<br> -->
 ### 5.4 Observation <br>
 The color of soft water instantly changes into blue, while the hard tap water turns wine red when Eriochrome black T is added. The wine-red colored solution turns blue when titrated against the EDTA solution <br>
 ### 5.5. Sample Data and Analysis <br> 
 ### 5.5.1 Titration of hard water (normal tap water)<br>
-(![Alt text](<pic 5 .jpg>))<br>
+<!-- (![Alt text](<pic 5 .jpg>))<br> -->
+<img src="images/Pic 5.jpg"><br>
 Therefore, the average volume of EDTA needed is 9.3 mL.<br>
 ### 5.5.2 Calculation <br>
-(![Alt text](<pic 6.jpg>))<br>
+<!-- (![Alt text](<pic 6.jpg>))<br> -->
+<img src="images/Pic 6.jpg"><br>
 ### Analysis <br>
 From the experiment, the hardness of tap water is found to be 93 ppm
