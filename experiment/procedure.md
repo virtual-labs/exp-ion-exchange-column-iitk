@@ -17,7 +17,7 @@
 Repeat Step-5 and Step-6 three times.<br>
 ### 5.3. Procedure in laboratory <br>
 (![Alt text](<pic 4.jpg>))<br>
-See the Video!<br>
+<!-- See the Video!<br> -->
 ### 5.4 Observation <br>
 The color of soft water instantly changes into blue, while the hard tap water turns wine red when Eriochrome black T is added. The wine-red colored solution turns blue when titrated against the EDTA solution <br>
 ### 5.5. Sample Data and Analysis <br> 
