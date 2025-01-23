@@ -65,7 +65,7 @@ function hardwatermov(){
         if(e==10){
                                                     
                                                     
-            textOFinstructions.textContent = "100ml of Hardwater is poured inside the CONICAL FLASK";
+            textOFinstructions.textContent = "100ml of Hardwater is poured in the CONICAL FLASK";
             e+=1;
         }
         if(h==10){
@@ -124,7 +124,7 @@ function conicalFlaskStep2(){
     if(e==12){
                                                     
                                                     
-        textOFinstructions.textContent = "100ml of hardwater is poured inside the COLUMN containing SODIUM salt from CONICAL FLASK";
+        textOFinstructions.textContent = "100ml of hardwater is poured in the COLUMN containing SODIUM salt from CONICAL FLASK";
         e+=1;
     }
     if(h==12){
@@ -174,7 +174,7 @@ function conicalFlaskStep2(){
                                 if(e==13){
                                                     
                                                     
-                                    textOFinstructions.textContent = "You will observe that the ions inside the sodium salt will exhange the cations with the hard water";
+                                    textOFinstructions.textContent = "You will observe that the ions in the sodium salt will exhange the cations with the hard water";
                                     e+=1;
                                 }
                                 if(h==13){
@@ -261,7 +261,7 @@ function MOVconicalflasktoSPACE(){
                 if(e==16){
                                                     
                                                     
-                    textOFinstructions.textContent = "Now click on the DROPER";
+                    textOFinstructions.textContent = "Now click on the DROPPER";
                     e+=1;
                 }
                 if(h==16){
@@ -282,7 +282,7 @@ function piptmovhardwater(){
     if(e==17){
                                                     
                                                     
-        textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped inside the CONICAL FLASK with the help of droper";
+        textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped in the CONICAL FLASK with the help of dropper";
         e+=1;
     }
     if(h==17){
@@ -328,7 +328,7 @@ function piptmovhardwater(){
                                                 if(e==18){
                                                     
                                                     
-                                                    textOFinstructions.textContent = "Now click on the another Droper";
+                                                    textOFinstructions.textContent = "Now click on the Dropper";
                                                     e+=1;
                                                 }
                                                 if(h==18){
@@ -360,7 +360,7 @@ function blackTpiptMOV(){
         if(e==19){
                                                     
                                                     
-            textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped inside the CONICAL FLASK with the help of droper";
+            textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped in the CONICAL FLASK with the help of dropper";
             e+=1;
         }
         if(h==19){
