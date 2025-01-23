@@ -38,7 +38,7 @@ function buffersolmov(){
     if(e==23){
                                                      
                                                      
-        textOFinstructions.textContent = "50ml of EDTA is poured inside the Burette";
+        textOFinstructions.textContent = "50ml of EDTA is poured in the Burette";
         e+=1;
     }
     if(h==23){

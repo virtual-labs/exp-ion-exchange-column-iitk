@@ -64,7 +64,7 @@
 function movehardwater(){
     // textOFinstructions.style.color="blue"
     if(e==1){
-        textOFinstructions.textContent = "100ml of Hard Water is poured inside the MESURING CYLINDER.";
+        textOFinstructions.textContent = "100ml of Hard Water is poured in the MEASURING CYLINDER.";
         e+=1;
     }
     if(h==1){
@@ -88,7 +88,7 @@ function movehardwater(){
 
                     if(e==2){
                         
-                        textOFinstructions.textContent = "Now click on MESURING CYLINDER";
+                        textOFinstructions.textContent = "Now click on MEASURING CYLINDER";
                         e+=1;
                     }
                     if(h==2){
@@ -108,7 +108,7 @@ function movehardwater(){
         // movement of measuring cylinder to conical flask
       if(f==1){
         if(e==3){
-            textOFinstructions.textContent = "The 100ml of Hardwater is poured from MESURING CYLINDER insde the CONICAL FLASK";
+            textOFinstructions.textContent = "The 100ml of Hardwater is poured from MEASURING CYLINDER in the CONICAL FLASK";
                      e+=1;
         }
         if(h==3){
@@ -144,7 +144,7 @@ function movehardwater(){
 
                 if(e==4){
  
-                    textOFinstructions.textContent = "Now click on the DROPER";
+                    textOFinstructions.textContent = "Now click on the DROPPER";
                     e+=1;
                 }
                 if(h==4){
@@ -185,7 +185,7 @@ f+=1;
         if(e==5){
  
             
-            textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped inside the CONICAL FLASK with the help of droper";
+            textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped in the CONICAL FLASK with the help of dropper";
             e+=1;
         }
         if(h==5){
@@ -249,7 +249,7 @@ f+=1;
                                     if(e==6){
  
             
-                                        textOFinstructions.textContent = "Now click on the another droper";
+                                        textOFinstructions.textContent = "Now click on the dropper";
                                         
                                         e+=1;
                                     }
@@ -290,7 +290,7 @@ f+=1;
         if(e==7){
  
             
-            textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped inside the CONICAL FLASK with the help of droper";
+            textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped in the CONICAL FLASK with the help of dropper";
             
             
             e+=1;
