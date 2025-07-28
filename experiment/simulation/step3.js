@@ -13,6 +13,24 @@ var exitbutton =document.getElementById("next-button")
  var textOFinstructions=document.getElementById("message-text")
 
  // **********************************************************************************end of variables*****************************************************************************
+const synth = window.speechSynthesis;
+let utterance;
+let isSpeechEnabled = true;
+
+function speakText(text) {
+    if (!isSpeechEnabled) return;
+    
+    // Cancel any ongoing speech
+    synth.cancel();
+    
+    // Create new utterance
+    utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US'; // or 'hi-IN' for Hindi
+    utterance.rate = 0.9;
+    
+    // Speak the text
+    synth.speak(utterance);
+}
  var f=9;
  var e=22;
  var h=100;
@@ -21,10 +39,12 @@ var exitbutton =document.getElementById("next-button")
                                                      
                                                      
      textOFinstructions.textContent = "Now click on EDTA BEAKER";
+	 speakText(textOFinstructions.textContent);
      e+=1;
  }
  if(h==22){
      textOFinstructions.textContent = "अब EDTA BEAKER पर क्लिक करें";
+	 speakText(textOFinstructions.textContent);
      h+=1;
  }
  
@@ -39,10 +59,12 @@ function buffersolmov(){
                                                      
                                                      
         textOFinstructions.textContent = "50ml of EDTA is poured in the Burette";
+		speakText(textOFinstructions.textContent);
         e+=1;
     }
     if(h==23){
         textOFinstructions.textContent = "ब्यूरेट के अंदर 50 मिलीलीटर ईडीटीए डाला जाता है";
+		speakText(textOFinstructions.textContent);
         h+=1;
     }
     
@@ -68,10 +90,12 @@ function buffersolmov(){
                                                      
                                                      
                             textOFinstructions.textContent = "Now click on the Red Vine colored conical flask";
+							speakText(textOFinstructions.textContent);
                             e+=1;
                         }
                         if(h==24){
                             textOFinstructions.textContent = "अब लाल बेल रंग के शंक्वाकार फ्लास्क पर क्लिक करें";
+							speakText(textOFinstructions.textContent);
                             h+=1;
                         }
                         
@@ -98,10 +122,12 @@ function redvineconicalMOV(){
                                                          
                                                          
             textOFinstructions.textContent = "Now click on the burette";
+			speakText(textOFinstructions.textContent);
             e+=1;
         }
         if(h==25){
             textOFinstructions.textContent = "अब ब्यूरेट पर क्लिक करें";
+			speakText(textOFinstructions.textContent);
             h+=1;
         }
         // EDTAbeaker.style.transform="translate(-55%,-250%)"
@@ -117,11 +143,13 @@ function buretteTAProtate(){
                                                          
                                                          
         textOFinstructions.textContent = "You will observe that the titration is under process and the color of the conical flask turns blue from red";
-        e+=1;
+        speakText(textOFinstructions.textContent);
+		e+=1;
     }
     if(h==26){
         textOFinstructions.textContent = "आप देखेंगे कि अनुमापन प्रक्रिया में है और शंक्वाकार फ्लास्क का रंग लाल से नीला हो जाता है";
-        h+=1;
+        speakText(textOFinstructions.textContent);
+		h+=1;
     }
 
     if(f==11){
@@ -145,10 +173,12 @@ function buretteTAProtate(){
                                                          
                                                          
                                 textOFinstructions.textContent = "You will now observe that the both the conical flask are turned to blue color which proves that the water does not contain any hardness.\n Hence the experiment is successfull.\n !!THANK YOU!!";
+								speakText(textOFinstructions.textContent);
                                 e+=1;
                             }
                             if(h==27){
                                 textOFinstructions.textContent = "अब आप देखेंगे कि शंक्वाकार फ्लास्क दोनों नीले रंग में बदल गए हैं जो साबित करता है कि पानी में कोई कठोरता नहीं है।\n अतः प्रयोग सफल है.!!\n धन्यवाद!!";
+								speakText(textOFinstructions.textContent);
                                 h+=1;
                             }
                         }, 1400);

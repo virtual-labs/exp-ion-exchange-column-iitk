@@ -30,7 +30,49 @@
     var e=0; // english instuctions variable
     var h=0;    // hindi instuctions variable
 
+const synth = window.speechSynthesis;
+let utterance;
+let isSpeechEnabled = true;
+let utteranceLang = 'en-IN'; // Default language for speech synthesis
+
+function speakText(text) {
+    try{
+        if (!isSpeechEnabled) return;
+        
+        // Cancel any ongoing speech
+        synth.cancel();
+        
+        // Create new utterance
+        utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = utteranceLang // or 'hi-IN' for Hindi
+        utterance.rate = 0.9;
+        
+        // Speak the text
+        synth.speak(utterance);
+    }
+    catch(error) {
+        console.error("Speech synthesis error:", error);
+    }
+}
+
+// Toggle speech function
+function toggleSpeech() {
+    isSpeechEnabled = !isSpeechEnabled;
+    const speechBtn = document.getElementById('speechToggle');
+    
+    if (isSpeechEnabled) {
+        speechBtn.textContent = '🔊 Mute';
+        // Speak the current instruction
+        const currentText = document.getElementById("message-text").textContent;
+        speakText(currentText);
+    } else {
+        speechBtn.textContent = '🔈 Unmute';
+        synth.cancel();
+    }
+}
+
     function englang(){
+        utteranceLang = 'en-IN'; // Set language to English
         if(e==0){
             languageSelctorPage.style.display = "none";
             setTimeout(() => {
@@ -39,16 +81,19 @@
             // message will be english
             
             textOFinstructions.textContent = "Click on the HARD WATER SAMPLE BEAKER to start the Experiment";
+			speakText(textOFinstructions.textContent);
         }
         e+=1;
         
         
     }
     function hindilang(){
+        utteranceLang = 'hi-IN'; // Set language to English
         if(h==0){
             languageSelctorPage.style.display = "none";
        
             textOFinstructions.textContent = "प्रयोग शुरू करने के लिए हार्ड पानी नमूना बीकर पर क्लिक करें";
+			speakText(textOFinstructions.textContent);
         }
         h+=1;
     }
@@ -60,15 +105,47 @@
     //     h+=1;
     // }
 
+    function Rinsing() {
+        // empty ko lekr jaa rha h distilled water
+        console.log("Rinsing function called", e, h, f);
+        emptpipette2.style.transform= "translate(-800%, 220%) rotate(-90deg)"
+        if(e==6.5){            
+            textOFinstructions.textContent = "Dropper is rinsed with DISTILLED WATER";
+            speakText(textOFinstructions.textContent);
+        }
+        if(h==6.5){
+            textOFinstructions.textContent = "ड्रॉपर को DISTILLED WATER से धोया जाता है";
+            speakText(textOFinstructions.textContent);
+        }
+        setTimeout(function(){
+                    emptpipette2.style.transform= "translate(0%,0%) rotate(0deg)"
+                                    if(e==6.5){
+ 
+            
+                                        textOFinstructions.textContent = "Now click on the dropper";
+                                        speakText(textOFinstructions.textContent);
+                                        
+                                        e+=0.5;
+                                    }
+                                    if(h==6.5){
+                                        textOFinstructions.textContent = "अब दूसरे ड्रॉपर पर क्लिक करें";
+                                        speakText(textOFinstructions.textContent);
+                                        h+=0.5;
+                                    }
+                                    f+=0.5;
+        }, 3000)
+    }
 
 function movehardwater(){
     // textOFinstructions.style.color="blue"
     if(e==1){
         textOFinstructions.textContent = "100ml of Hard Water is poured in the MEASURING CYLINDER.";
+        speakText(textOFinstructions.textContent);
         e+=1;
     }
     if(h==1){
         textOFinstructions.textContent = "मापने वाले सिलेंडर के अंदर 100ml कठोर पानी डाला जाता है।";
+        speakText(textOFinstructions.textContent);
         h+=1;
     }
     // movement of hardwater to measuring cylinder
@@ -89,10 +166,12 @@ function movehardwater(){
                     if(e==2){
                         
                         textOFinstructions.textContent = "Now click on MEASURING CYLINDER";
+                        speakText(textOFinstructions.textContent);
                         e+=1;
                     }
                     if(h==2){
                         textOFinstructions.textContent = "अब मेसर्जिंग सिलेंडर पर क्लिक करें";
+                        speakText(textOFinstructions.textContent);
                         h+=1;
                     }
                 },1400)
@@ -109,10 +188,12 @@ function movehardwater(){
       if(f==1){
         if(e==3){
             textOFinstructions.textContent = "The 100ml of Hardwater is poured from MEASURING CYLINDER in the CONICAL FLASK";
+            speakText(textOFinstructions.textContent);
                      e+=1;
         }
         if(h==3){
             textOFinstructions.textContent = "100ml हार्डवाटर को CONICAL FLASK के सिलेंडर से डाला जाता है";
+            speakText(textOFinstructions.textContent);
             h+=1;
         }
 
@@ -145,10 +226,12 @@ function movehardwater(){
                 if(e==4){
  
                     textOFinstructions.textContent = "Now click on the DROPPER";
+                    speakText(textOFinstructions.textContent);
                     e+=1;
                 }
                 if(h==4){
                     textOFinstructions.textContent = "अब ड्रॉपर पर क्लिक करें";
+                    speakText(textOFinstructions.textContent);
                     h+=1;
                 }
 
@@ -186,10 +269,12 @@ f+=1;
  
             
             textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped in the CONICAL FLASK with the help of dropper";
+            speakText(textOFinstructions.textContent);
             e+=1;
         }
         if(h==5){
             textOFinstructions.textContent = "बफर सोल्यूशन की 3-4 बूंदें ड्रॉपर की मदद से CONICAL FLASK के अंदर गिराई जाती हैं";
+            speakText(textOFinstructions.textContent);
             h+=1;
         }
 
@@ -250,12 +335,14 @@ f+=1;
  
             
                                         textOFinstructions.textContent = "Now click on the dropper";
+                                        speakText(textOFinstructions.textContent);
                                         
-                                        e+=1;
+                                        e+=0.5;
                                     }
                                     if(h==6){
                                         textOFinstructions.textContent = "अब दूसरे ड्रॉपर पर क्लिक करें";
-                                        h+=1;
+                                        speakText(textOFinstructions.textContent);
+                                        h+=0.5;
                                     }
                             
 
@@ -279,24 +366,29 @@ f+=1;
         },1400)
 
     },2400)
-    f+=1;
+    f+=0.5;
     }
    }
 
    function emptypipettee2(){
-    if(f==3){
+    console.log("emptypipettee2 function called", f);
+    if(f==2.5){
+        Rinsing();
+    }
+    else if(f==3){
 
 
         if(e==7){
  
             
             textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped in the CONICAL FLASK with the help of dropper";
-            
+            speakText(textOFinstructions.textContent);
             
             e+=1;
         }
         if(h==7){
             textOFinstructions.textContent = "EBT INDICATOR की 3-4 बूंदें ड्रॉपर की मदद से CONICAL FLASK के अंदर गिराई जाती हैं";
+            speakText(textOFinstructions.textContent);
             h+=1;
         }
 
@@ -326,10 +418,12 @@ f+=1;
                                                     
                                                     
                                     textOFinstructions.textContent = "You will observe that the water of conical flask turns red";
+                                    speakText(textOFinstructions.textContent);
                                     e+=1;
                                 }
                                 if(h==8){
                                     textOFinstructions.textContent = "आप देखेंगे कि शंक्वाकार फ्लास्क का पानी लाल हो जाता है";
+                                    speakText(textOFinstructions.textContent);
                                     h+=1;
                                 }
                                 setTimeout(() => {
@@ -366,10 +460,12 @@ f+=1;
                                                     
                                                     
                                                     textOFinstructions.textContent = "Click on next button for the step 2 of the experiment";
+                                                    speakText(textOFinstructions.textContent);
                                                     e+=1;
                                                 }
                                                 if(h==9){
                                                     textOFinstructions.textContent = "प्रयोग के चरण 2 के लिए अगले बटन पर क्लिक करें";
+                                                    speakText(textOFinstructions.textContent);
                                                     h+=1;
                                                 }
                                         
@@ -384,8 +480,9 @@ f+=1;
                     },3000)
             },2400)
         },2400)
-    }
+
 f+=1;
+    }
 }
 
 
