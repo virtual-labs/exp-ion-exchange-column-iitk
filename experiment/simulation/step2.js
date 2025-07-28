@@ -44,14 +44,57 @@ var f=5;
 var e=9;
 var h=100;
 
+const synth = window.speechSynthesis;
+let utterance;
+let isSpeechEnabled = true;
+let utteranceLang = 'en-IN'; // Default language for speech synthesis
+
+function speakText(text) {
+    try{
+        if (!isSpeechEnabled) return;
+        
+        // Cancel any ongoing speech
+        synth.cancel();
+        
+        // Create new utterance
+        utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = utteranceLang // or 'hi-IN' for Hindi
+        utterance.rate = 0.9;
+        
+        // Speak the text
+        synth.speak(utterance);
+    }
+    catch(error) {
+        console.error("Speech synthesis error:", error);
+    }
+}
+
+// Toggle speech function
+function toggleSpeech() {
+    isSpeechEnabled = !isSpeechEnabled;
+    const speechBtn = document.getElementById('speechToggle');
+    
+    if (isSpeechEnabled) {
+        speechBtn.textContent = '🔊 Mute';
+        // Speak the current instruction
+        const currentText = document.getElementById("message-text").textContent;
+        speakText(currentText);
+    } else {
+        speechBtn.textContent = '🔈 Unmute';
+        synth.cancel();
+    }
+}
+
 if(e==9){
                                                     
                                                     
     textOFinstructions.textContent = "Click on HARDWATER SAMPLE BEAKER";
+    speakText(textOFinstructions.textContent);
     e+=1;
 }
 if(h==9){
     textOFinstructions.textContent = "हार्डवाटर सैंपल बीकर पर क्लिक करें";
+    speakText(textOFinstructions.textContent);
     h+=1;
 }
 
@@ -66,10 +109,12 @@ function hardwatermov(){
                                                     
                                                     
             textOFinstructions.textContent = "100ml of Hardwater is poured in the CONICAL FLASK";
+            speakText(textOFinstructions.textContent);
             e+=1;
         }
         if(h==10){
             textOFinstructions.textContent = "100ml हार्डवाटर को CONICAL FALSK के अंदर डाला जाता है";
+            speakText(textOFinstructions.textContent);
             h+=1;
         }
 
@@ -102,10 +147,12 @@ function hardwatermov(){
                                                     
                                                     
                             textOFinstructions.textContent = "Now click on CONICAL FLASK";
+                            speakText(textOFinstructions.textContent);
                             e+=1;
                         }
                         if(h==11){
                             textOFinstructions.textContent = "अब CONICAL फ्लास्क पर क्लिक करें";
+                            speakText(textOFinstructions.textContent);
                             h+=1;
                         }
 
@@ -125,10 +172,12 @@ function conicalFlaskStep2(){
                                                     
                                                     
         textOFinstructions.textContent = "100ml of hardwater is poured in the COLUMN containing SODIUM salt from CONICAL FLASK";
+        speakText(textOFinstructions.textContent);
         e+=1;
     }
     if(h==12){
         textOFinstructions.textContent = "CONICAL फ्लास्क से सोडियम नमक युक्त COLUMN के अंदर 100ml कठोर जल डाला जाता है";
+        speakText(textOFinstructions.textContent);
         h+=1;
     }
 
@@ -175,10 +224,12 @@ function conicalFlaskStep2(){
                                                     
                                                     
                                     textOFinstructions.textContent = "You will observe that the ions in the sodium salt will exhange the cations with the hard water";
+                                    speakText(textOFinstructions.textContent);
                                     e+=1;
                                 }
                                 if(h==13){
                                     textOFinstructions.textContent = "आप देखेंगे कि सोडियम लवण के भीतर के आयन कठोर जल के साथ धनायनों को बाहर निकाल देंगे";
+                                    speakText(textOFinstructions.textContent);
                                     h+=1;
                                 }
                             
@@ -202,10 +253,12 @@ function conicalFlaskStep2(){
                                                     
                                                     
                                                         textOFinstructions.textContent = "Now click on the conical flask below the Column";
+                                                        speakText(textOFinstructions.textContent);
                                                         e+=1;
                                                     }
                                                     if(h==14){
                                                         textOFinstructions.textContent = "अब कॉलम के नीचे शंक्वाकार फ्लास्क पर क्लिक करें";
+                                                        speakText(textOFinstructions.textContent);
                                                         h+=1;
                                                     }
                                                 
@@ -238,10 +291,12 @@ function MOVconicalflasktoSPACE(){
                                                     
                                                     
         textOFinstructions.textContent = "The conical flask is placed on the table by shifting it from column stand";
+        speakText(textOFinstructions.textContent);
         e+=1;
     }
     if(h==15){
         textOFinstructions.textContent = "शंक्वाकार फ्लास्क को स्तंभ स्टैंड से स्थानांतरित करके मेज पर रखा जाता है";
+        speakText(textOFinstructions.textContent);
         h+=1;
     }
 
@@ -262,10 +317,12 @@ function MOVconicalflasktoSPACE(){
                                                     
                                                     
                     textOFinstructions.textContent = "Now click on the DROPPER";
+                    speakText(textOFinstructions.textContent);
                     e+=1;
                 }
                 if(h==16){
                     textOFinstructions.textContent = "अब ड्रॉपर पर क्लिक करें";
+                    speakText(textOFinstructions.textContent);
                     h+=1;
                 }
 
@@ -283,10 +340,12 @@ function piptmovhardwater(){
                                                     
                                                     
         textOFinstructions.textContent = "3-4 drops of BUFFER SOLUTION are dropped in the CONICAL FLASK with the help of dropper";
+        speakText(textOFinstructions.textContent);
         e+=1;
     }
     if(h==17){
         textOFinstructions.textContent = "बफर सोल्यूशन की 3-4 बूंदें ड्रॉपर की मदद से CONICAL FLASK के अंदर गिराई जाती हैं";
+        speakText(textOFinstructions.textContent);
         h+=1;
     }
 
@@ -329,11 +388,13 @@ function piptmovhardwater(){
                                                     
                                                     
                                                     textOFinstructions.textContent = "Now click on the Dropper";
-                                                    e+=1;
+                                                    speakText(textOFinstructions.textContent);
+                                                    e+=0.5;
                                                 }
                                                 if(h==18){
                                                     textOFinstructions.textContent = "अब दूसरे ड्रॉपर पर क्लिक करें";
-                                                    h+=1;
+                                                    speakText(textOFinstructions.textContent);
+                                                    h+=0.5;
                                                 }
 
 
@@ -351,20 +412,56 @@ function piptmovhardwater(){
                 }, 2400);
             }, 2400);
         },400)
-        f+=1;
+        f+=0.5;
     }
 }
 
+function Rinsing() {
+        // empty ko lekr jaa rha h distilled water
+        console.log("Rinsing function called", e, h, f);
+        blackTemptypiptMOV.style.transform= "translate(-500%, 25%) rotate(-90deg)"
+        if(e==18.5){            
+            textOFinstructions.textContent = "Dropper is rinsed with DISTILLED WATER";
+            speakText(textOFinstructions.textContent);
+        }
+        if(h==18.5){
+            textOFinstructions.textContent = "ड्रॉपर को DISTILLED WATER से धोया जाता है";
+            speakText(textOFinstructions.textContent);
+        }
+        setTimeout(function(){
+                    blackTemptypiptMOV.style.transform= "translate(0%,0%) rotate(0deg)"
+                                    if(e==18.5){
+ 
+            
+                                        textOFinstructions.textContent = "Now click on the dropper";
+                                        speakText(textOFinstructions.textContent);
+                                        
+                                        e+=0.5;
+                                    }
+                                    if(h==18.5){
+                                        textOFinstructions.textContent = "अब दूसरे ड्रॉपर पर क्लिक करें";
+                                        speakText(textOFinstructions.textContent);
+                                        h+=0.5;
+                                    }
+                                    f+=0.5;
+        }, 3000)
+    }
+
 function blackTpiptMOV(){
-    if(f==9){
+    if(f === 8.5){
+        Rinsing();
+    }
+    else if(f==9){
         if(e==19){
                                                     
                                                     
             textOFinstructions.textContent = "3-4 drops of EBT INDICATOR are dropped in the CONICAL FLASK with the help of dropper";
+            speakText(textOFinstructions.textContent);
             e+=1;
         }
         if(h==19){
             textOFinstructions.textContent = "EBT INDICATOR की 3-4 बूंदें ड्रॉपर की मदद से CONICAL FLASK के अंदर गिराई जाती हैं";
+            speakText(textOFinstructions.textContent);
             h+=1;
         }
 
