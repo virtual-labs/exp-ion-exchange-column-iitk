@@ -2,37 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The cation exchange resin which was used to remove the hardness of water contains ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Na<sup>+</sup> ions",
+        "b": "Fe<sup>3+</sup>, Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+        "c": "Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+        "d": "Mg<sup>2+</sup> ions only"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "After softening of hard water, the cation exchange resin contains   ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Na<sup>+</sup> ions",
+        "b": "Only sulfonated polystyrene beads",
+        "c": "Fe<sup>3+</sup> ions",
+        "d": "Ca<sup>2+</sup> and Mg<sup>2+</sup> ions"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To measure the hardness of the water, which solution was used as a complexing agent?",
+      "answers": {
+        "a": "The Cu (II) Phenanthroline complex ",
+        "b": "Barium salt of EDTA",
+        "c": "Disodium salt of EDTA",
+        "d": "18-crown ether-6"
       },
+    
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What indicator was used during the titration for measuring the hardness of the water?",
+      "answers": {
+        "a": "Methyl orange",
+        "b": "Eriochrome Black-T",
+        "c": "Bromocresol green ",
+        "d": "Phenolphthalein "
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "At the end point of the titration, the color of the solution turned to blue due to ",
+      "answers": {
+        "a": "Formation of metal-indicator complex",
+        "b": "Dissociation of the metal-indicator complex",
+        "c": "increase in the basicity of the solution ",
+        "d": "None of the reasons mentioned above "
+      },
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
