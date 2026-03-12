@@ -1,0 +1,55 @@
+
+/home/runner/work/exp-ion-exchange-column-iitk/exp-ion-exchange-column-iitk/experiment/simulation/css/index.js
+   95:10  warning  'move' is defined but never used       no-unused-vars
+  114:12  warning  'mesurmove' is defined but never used  no-unused-vars
+  125:14  warning  'meas' is defined but never used       no-unused-vars
+
+/home/runner/work/exp-ion-exchange-column-iitk/exp-ion-exchange-column-iitk/experiment/simulation/index.js
+   95:10  warning  'move' is defined but never used       no-unused-vars
+  114:12  warning  'mesurmove' is defined but never used  no-unused-vars
+  125:14  warning  'meas' is defined but never used       no-unused-vars
+
+/home/runner/work/exp-ion-exchange-column-iitk/exp-ion-exchange-column-iitk/experiment/simulation/step1.js
+    2:9   warning  'engbutton' is assigned a value but never used       no-unused-vars
+    7:8   warning  'burettestand' is assigned a value but never used    no-unused-vars
+    8:8   warning  'emptyburette' is assigned a value but never used    no-unused-vars
+   10:8   warning  'conicalflask1' is assigned a value but never used   no-unused-vars
+   11:8   warning  'conicalflask2' is assigned a value but never used   no-unused-vars
+   13:8   warning  'buffersolution' is assigned a value but never used  no-unused-vars
+   14:8   warning  'blacktea' is assigned a value but never used        no-unused-vars
+   23:9   warning  'droperwater' is assigned a value but never used     no-unused-vars
+   27:9   warning  'coneflsk2' is assigned a value but never used       no-unused-vars
+   59:10  warning  'toggleSpeech' is defined but never used             no-unused-vars
+   74:14  warning  'englang' is defined but never used                  no-unused-vars
+   90:14  warning  'hindilang' is defined but never used                no-unused-vars
+  139:10  warning  'movehardwater' is defined but never used            no-unused-vars
+  186:14  warning  'movecyldr' is defined but never used                no-unused-vars
+  263:14  warning  'emptypipettee' is defined but never used            no-unused-vars
+  373:13  warning  'emptypipettee2' is defined but never used           no-unused-vars
+  489:5   warning  'nextbutton' is assigned a value but never used      no-unused-vars
+  490:10  warning  'next1' is defined but never used                    no-unused-vars
+
+/home/runner/work/exp-ion-exchange-column-iitk/exp-ion-exchange-column-iitk/experiment/simulation/step2.js
+   73:10  warning  'toggleSpeech' is defined but never used            no-unused-vars
+  103:10  warning  'hardwatermov' is defined but never used            no-unused-vars
+  170:10  warning  'conicalFlaskStep2' is defined but never used       no-unused-vars
+  289:10  warning  'MOVconicalflasktoSPACE' is defined but never used  no-unused-vars
+  337:10  warning  'piptmovhardwater' is defined but never used        no-unused-vars
+  450:10  warning  'blackTpiptMOV' is defined but never used           no-unused-vars
+  538:5   warning  'nextbutton' is assigned a value but never used     no-unused-vars
+  539:10  warning  'next1' is defined but never used                   no-unused-vars
+  549:10  warning  Unnecessary semicolon                               no-extra-semi
+
+/home/runner/work/exp-ion-exchange-column-iitk/exp-ion-exchange-column-iitk/experiment/simulation/step3.js
+   10:5   warning  'exitbutton' is assigned a value but never used  no-unused-vars
+   34:6   warning  'f' is already defined                           no-redeclare
+   42:1   warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   47:1   warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   56:10  warning  'buffersolmov' is defined but never used         no-unused-vars
+  115:10  warning  'redvineconicalMOV' is defined but never used    no-unused-vars
+  140:10  warning  'buretteTAProtate' is defined but never used     no-unused-vars
+  194:10  warning  'next1' is defined but never used                no-unused-vars
+
+✖ 41 problems (0 errors, 41 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

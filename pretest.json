@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is meant by hard water?",
+      "answers": {
+       "a": "Water containing Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+       "b": "Water containing Fe<sup>3+</sup> ions",
+      "c": "Water containing Cl<sup>-</sup> and Br<sup>-</sup> ions",
+      "d": "Water containing PO<sub>4</sub><sup>3-</sup> and SO<sub>4</sub><sup>2-</sup> ions"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The resin used for ion exchange should contains:",
+      "answers": {
+        "a": "Non-exchangeable ions ",
+        "b": "Larger ions than those in hard water ",
+        "c": "ions that diffuse faster than in those in water",
+        "d": "Exchangeable ions"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }, 
+    {
+      "question": "The ion exchange column contains a microporous exchange resin usually made of ?",
+      "answers": {
+        "a": "Sulfonated graphitic carbon nitride ",
+        "b": "Sulfonated polystyrene beads",
+        "c": "Carbonylated polyvinyl chloride",
+        "d": "Hydroxylated borophene"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "Soap is not effective for cleaning when the water",
+      "answers": {
+        "a": "contains alcohol",
+        "b": "contains bacteria",
+        "c": "is hard ",
+        "d": "has high chloride content"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    } , 
+    {
+      "question": "What is the necessary property of the resin used to remove the hardness of water ",
+      "answers": {
+        "a": "It should be a cation exchange resin",
+        "b": " It should be an anion exchange resin ",
+        "c": "It should not contain polystyrene ",
+        "d": "It should be colourless "
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
