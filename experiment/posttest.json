@@ -4,16 +4,10 @@
     {
       "question": "The cation exchange resin which was used to remove the hardness of water contains ?",
       "answers": {
-        "a": "Na+ ions.",
-        "b": "Fe3+, Ca2+ and Mg2+ ions",
-        "c": "Ca2+ and Mg2+ ions ",
-        "d": "Mg2+ ions only"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Na<sup>+</sup> ions",
+        "b": "Fe<sup>3+</sup>, Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+        "c": "Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+        "d": "Mg<sup>2+</sup> ions only"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -21,17 +15,12 @@
     {
       "question": "After softening of hard water, the cation exchange resin contains   ?",
       "answers": {
-        "a": "Na+ ions.",
-        "b": "Only Sulfonated polystyrene beads  ",
-        "c": "Fe3+ ions3",
-        "d": "Ca2+ and Mg2+ ions "
+        "a": "Na<sup>+</sup> ions",
+        "b": "Only sulfonated polystyrene beads",
+        "c": "Fe<sup>3+</sup> ions",
+        "d": "Ca<sup>2+</sup> and Mg<sup>2+</sup> ions"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -43,12 +32,7 @@
         "c": "Disodium salt of EDTA",
         "d": "18-crown ether-6"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+    
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -60,12 +44,7 @@
         "c": "Bromocresol green ",
         "d": "Phenolphthalein "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "b",
       "difficulty": "beginner"
     } , 
@@ -77,12 +56,7 @@
         "c": "increase in the basicity of the solution ",
         "d": "None of the reasons mentioned above "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
