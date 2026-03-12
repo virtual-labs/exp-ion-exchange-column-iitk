@@ -2,36 +2,25 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is meant by hard water??",
+      "question": "What is meant by hard water?",
       "answers": {
-        "a": "Water containing Ca2+ and Mg2+ ions",
-        "b": "Water containing Fe3+ ions",
-        "c": "Water containing Cl-and Br- ions",
-        "d": "Water containing PO43- and SO4^2- ions"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+       "a": "Water containing Ca<sup>2+</sup> and Mg<sup>2+</sup> ions",
+       "b": "Water containing Fe<sup>3+</sup> ions",
+      "c": "Water containing Cl<sup>-</sup> and Br<sup>-</sup> ions",
+      "d": "Water containing PO<sub>4</sub><sup>3-</sup> and SO<sub>4</sub><sup>2-</sup> ions"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "The resin used for ion exchange should contains",
+      "question": "The resin used for ion exchange should contains:",
       "answers": {
         "a": "Non-exchangeable ions ",
         "b": "Larger ions than those in hard water ",
         "c": "ions that diffuse faster than in those in water",
         "d": "Exchangeable ions"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     }, 
@@ -43,12 +32,7 @@
         "c": "Carbonylated polyvinyl chloride",
         "d": "Hydroxylated borophene"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     } , 
@@ -60,12 +44,7 @@
         "c": "is hard ",
         "d": "has high chloride content"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     } , 
@@ -77,12 +56,7 @@
         "c": "It should not contain polystyrene ",
         "d": "It should be colourless "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
